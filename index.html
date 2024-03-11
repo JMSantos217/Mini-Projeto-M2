@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Jogadores</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Novo Jogador</h1>
+        <form id="cadastro-form">
+            <input type="text" id="nome" placeholder="Nome" required>
+            <input type="text" id="nickname" placeholder="Nickname" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="password" id="senha" placeholder="Senha" required>
+            <input type="date" id="data-nascimento" required>
+            <input type="number" id="idade" placeholder="Idade" required>
+            <select id="classe" required>
+                <option value="">Selecione a classe</option>
+                <option value="guerreiro">Guerreiro</option>
+                <option value="arqueiro">Arqueiro</option>
+                <option value="mago">Mago</option>
+            </select>
+            <select id="sexo-personagem" required>
+                <option value="">Sexo do Personagem</option>
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                
+            </select>
+            <select id="regiao" required>
+                <option value="">Selecione a região</option>
+                <option value="americas">Américas</option>
+                <option value="europa">Europa</option>
+                <option value="asia">Ásia</option>
+                <option value="oceania">Oceania</option>
+                <option value="brasil">Brasil</option>
+            </select>
+            <button type="submit">Cadastrar</button>
+        </form>
+        <div id="lista-jogadores"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

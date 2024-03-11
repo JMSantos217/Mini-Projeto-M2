@@ -5,6 +5,7 @@ class Jogador {
         this.email = email;
         this.senha = senha;
         this.dataNascimento = dataNascimento;
+        this.idade = idade;
         this.classe = classe;
         this.sexo = sexo;
         this.regiao = regiao;

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro de Jogadores</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"> 
 </head>
 <body>
     <div class="container">
@@ -15,6 +15,7 @@
             <input type="email" id="email" placeholder="Email" required>
             <input type="password" id="senha" placeholder="Senha" required>
             <input type="date" id="data-nascimento" required>
+            <input type="number" id="idade" placeholder="Idade" required>
             <select id="classe" required>
                 <option value="">Selecione a classe</option>
                 <option value="guerreiro">Guerreiro</option>
@@ -34,12 +35,13 @@
                 <option value="asia">Ásia</option>
                 <option value="oceania">Oceania</option>
                 <option value="brasil">Brasil</option>
+                
             </select>
             <button type="submit">Cadastrar</button>
         </form>
         <div id="lista-jogadores"></div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="script.js"></script> 
 </body>
 </html>
